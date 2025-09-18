@@ -15,10 +15,10 @@ if /i "%BUILD:~0,1%"=="y" (
 )
 
 :: Get version from package.json
-for /f "delims=" %%v in ('powershell -Command "(Get-Content projects/dynamic-form/package.json | ConvertFrom-Json).version"') do set VERSION=%%v
+for /f "delims=" %%v in ('powershell -Command "(Get-Content projects/ion-intl-tel-input/package.json | ConvertFrom-Json).version"') do set VERSION=%%v
 
 :: Move to dist directory
-pushd .\dist\dynamic-form\
+pushd .\dist\ion-intl-tel-input\
 
 :: Publish to npm with OTP and dist-tag
 set /p OTP="Insert OTP Code: "

@@ -13,5 +13,5 @@ call node update_version.js
 :no_update_version
 call cd ..
 call ng build --configuration development
-call cd .\dist\dynamic-form\
+call cd .\dist\ion-intl-tel-input\
 call npm pack
