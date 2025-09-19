@@ -8,7 +8,7 @@ ng_cmd = "ng.cmd" if sys.platform.startswith("win") else "ng"
 npm_cmd = "npm.cmd" if sys.platform.startswith("win") else "npm"
 
 release='release-19-ionic'
-lib_name='dynamic-form'
+lib_name='ion-intl-tel-input'
 
 # Ottieni la directory principale
 tools_dir = Path(__file__).resolve().parent

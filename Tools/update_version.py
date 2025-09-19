@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-lib_name='dynamic-form'
+lib_name='ion-intl-tel-input'
 
 tools_dir = Path(__file__).resolve().parent
 main_dir = tools_dir.parent
